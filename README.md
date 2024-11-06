@@ -49,7 +49,6 @@ A aplicação está hospedada na AWS em uma arquitetura robusta e escalável.
 1. **Build:** O código-fonte é construído e os artefatos são gerados.
 2. **Deploy do frontend:** Os arquivos estáticos do frontend são enviados para o S3 bucket.
 3. **Deploy do backend:** A imagem Docker do backend é construída e enviada para o Amazon ECR. Em seguida, um novo serviço ECS é criado ou atualizado para executar a imagem.
-4. **Atualização do Load Balancer:** O Load Balancer é atualizado para direcionar o tráfego para o novo serviço ECS.
 
 ## Agradecimentos
 Agradeço à Simbiose Ventures pela oportunidade de participar deste desafio técnico.
